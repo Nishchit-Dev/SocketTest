@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node SocketMain.js",
     "nodemonServer":"nodemon SocketMain.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

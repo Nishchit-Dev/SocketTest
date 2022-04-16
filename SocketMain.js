@@ -9,8 +9,8 @@ app.length('/',(req,res)=>{
     res.send("Hello! Developer ")
 })
 
-server.listen(3000,()=>{
-    console.log("listing 3000....")
+server.listen(process.env.PORT,()=>{
+    console.log("listing 3000...."+PORT)
 })
 io.on('connect',(soc)=>{
     console.log("connected")
