@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
 })
 
 server.listen(process.env.PORT,()=>{
-    console.log("listing 3000...."+PORT)
+    console.log("listing 3000...."+process.env.PORT)
 })
 io.on('connect',(soc)=>{
     console.log("connected")
